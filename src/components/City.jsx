@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { useCities } from '../contexts/CitiesContext';
 import FlagEmoji from './FlagEmoji';
 import Spinner from './Spinner';
+import BackButton from './BackButton';
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat('en', {
@@ -41,7 +42,6 @@ function City() {
         <h6>You went to {cityName} on</h6>
         <p>{formatDate(date || null)}</p>
       </div>
-
       {notes && (
         <div className={styles.row}>
           <h6>Your notes</h6>
@@ -58,6 +58,10 @@ function City() {
         >
           Check out {cityName} on Wikipedia &rarr;
         </a>
+      </div>
+
+      <div>
+        <BackButton />
       </div>
     </div>
   );
