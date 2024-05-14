@@ -1,16 +1,3 @@
 {
-  "cities": [
-    {
-      "id": "b3ec",
-      "cityName": "Kawartha Lakes",
-      "country": "Canada",
-      "emoji": "🇨🇦",
-      "date": "2024-05-14T00:36:50.282Z",
-      "notes": "",
-      "position": {
-        "lat": "44.77793589631623",
-        "lng": "-78.99169921875001"
-      }
-    }
-  ]
+  "cities": []
 }
