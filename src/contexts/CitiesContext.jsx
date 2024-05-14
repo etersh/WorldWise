@@ -6,7 +6,8 @@ import {
   useReducer,
 } from 'react';
 
-const BASE_URL = 'http://localhost:9000/';
+// const BASE_URL = 'http://localhost:9000/';
+const BASE_URL = 'https://quiet-garden-59880-ff863f5beecf.herokuapp.com/';
 
 const CitiesContext = createContext();
 

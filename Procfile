@@ -1,0 +1,1 @@
+web: json-server --watch ./src/data/cities.json --port $PORT
