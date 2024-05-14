@@ -38,7 +38,7 @@ function AuthProvider({ children }) {
       dispatch({ type: 'login', payload: FAKE_USER });
   }
 
-  function logout(email, password) {
+  function logout() {
     dispatch({ type: 'logout' });
   }
 
