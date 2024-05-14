@@ -3,6 +3,9 @@ import react from '@vitejs/plugin-react';
 import eslintPlugin from 'vite-plugin-eslint';
 
 // https://vitejs.dev/config/
+
+base: '/WorldWise/';
+
 export default defineConfig({
   plugins: [react(), eslintPlugin()],
 });
