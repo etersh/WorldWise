@@ -7,7 +7,7 @@ import {
 } from 'react';
 
 // const BASE_URL = 'http://localhost:9000/';
-const BASE_URL = 'https://cities-data-e7bc5b8ad924.herokuapp.com/';
+const BASE_URL = 'https://cities-data-e7bc5b8ad924.herokuapp.com';
 
 const CitiesContext = createContext();
 
