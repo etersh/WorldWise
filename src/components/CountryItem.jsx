@@ -1,5 +1,5 @@
-import styles from './CountryItem.module.css';
 import FlagEmoji from './FlagEmoji';
+import styles from './CountryItem.module.css';
 
 function CountryItem({ country }) {
   return (
